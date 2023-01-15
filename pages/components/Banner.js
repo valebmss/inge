@@ -30,27 +30,21 @@ function Banner() {
             </div>
             <div>
               <Image src={a1} alt="" width="" height="" loading='lazy' className='rounded-3xl'/>
-              <p className='legend'>Imagen de prueba 1</p>
             </div>
             <div>
-              <Image src={a2} alt="" width="" height="" loading='lazy' className='rounded-3xl'/>
-              <p className='legend'>Imagen de prueba 1</p>
+              <Image src={a2} alt="" width="" height="" loading='lazy' className='rounded-3xl'/>          </div>
+            <div>
+              <Image src={a3} alt="" width="" height="" loading='lazy' className='rounded-3xl'/>             
             </div>
             <div>
-              <Image src={a3} alt="" width="" height="" loading='lazy' className='rounded-3xl'/>
-              <p className='legend'>Imagen de prueba 1</p>
-            </div>
-            <div>
-              <Image src={a4} alt="" width="" height="" loading='lazy' className='rounded-3xl'/>
-              <p className='legend'>Imagen de prueba 1</p>
+              <Image src={a4} alt="" width="" height="" loading='lazy' className='rounded-3xl'/>              
             </div>
             <div>
               <Image src={a5} alt="" width="" height="" loading='lazy' className='rounded-3xl'/>
-              <p className='legend'>Imagen de prueba 1</p>
             </div>
             <div>
               <Image src={a6} alt="" width="" height="" loading='lazy' className='rounded-3xl'/>
-              <p className='legend'>Imagen de prueba 1</p>
+              
             </div>
           </Carousel>
         </div>
