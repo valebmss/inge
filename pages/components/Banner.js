@@ -32,10 +32,32 @@ function Banner() {
             </div>
           </Carousel>
         </div>
-        <div className='text-left md:mt-10 p-5'>
-          <h1 className='text-m sm:text-xl md:text-2xl'>Villa Paula <br/><span className='spam font-medium md:text-3xl'>Tocancipá</span></h1>
-          <Image src={vp} alt="Lgo VP" width={100}/>
-        </div>   
+        <div className='flex md:flex-wrap'>
+          <div className='text-left md:mt-10 p-3 w-1/4 md:w-full md:flex'>
+            <h1 className='md:w-1/2 text-m md:text-3xl'>Villa Paula <br/><span className='spam text-lg md:text-4xl'>Tocancipá</span></h1>
+            <Image src={vp} alt="Lgo VP" className='h-10 w-auto p-1 md:h-20'/>
+          </div>
+          <div className='p-5 flex-grow text-center text-xs w-3/4 ml-5 md:text-lg'>
+            <ol className=''>
+              <li className='inline-flex w-1/2 '>
+                <img src='https://cdn-icons-png.flaticon.com/512/7374/7374076.png' alt='' className='w-8 md:w-14'/>
+                <p className='p-2 spam '>114 m2 </p>
+              </li>
+              <li className='inline-flex  w-1/2'>
+                <img src='https://cdn-icons-png.flaticon.com/512/7374/7374076.png' alt='' className='w-8 md:w-14'/>
+                <p className='p-2 spam'>114 m2 </p>
+              </li>
+              <li className='inline-flex  w-1/2'>
+                <img src='https://cdn-icons-png.flaticon.com/512/7374/7374076.png' alt='' className='w-8 md:w-14'/>
+                <p className='p-2 spam'>114 m2 </p>
+              </li>
+              <li className='inline-flex  w-1/2'>
+                <img src='https://cdn-icons-png.flaticon.com/512/7374/7374076.png' alt='' className='w-8 md:w-14'/>
+                <p className='p-2 spam'>114 m2</p>
+              </li>
+            </ol>
+          </div>
+        </div> 
       </div>
     </div>
   )
