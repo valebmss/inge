@@ -13,15 +13,13 @@ function Banner() {
     <div>
       <div className='md:flex'>
         <div className='w-auto mt-10 md:w-2/3 ml-5 mr-5 rounded-3xl'>
-          <Carousel 
-          autoplay={true} 
-          infiniteloop={true}
-          showIndicators={true}
-          showThumbs={false}
-          showStatus={false}
-          interval={3000}
-          showArrows={true}
-          >
+        <Carousel
+        autoPlay
+        infiniteLoop
+        showStatus={false}
+        showIndicators={true}
+        showThumbs={false}
+        interval={3000}>
             <div>
               <Image src={bb2} alt="" width="" height="" loading='lazy' className='rounded-3xl'/>
               <p className='legend'>Imagen de prueba 1</p>
