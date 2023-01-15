@@ -13,8 +13,7 @@
     "nvm": "^0.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "vercel": "^28.12.4",
-    "yarn": "^1.22.19"
+    "vercel": "^28.12.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
