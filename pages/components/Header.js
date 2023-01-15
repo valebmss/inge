@@ -10,9 +10,9 @@ function Header() {
         <p className='text-xs sm:text-lg'>+57 3152711731</p>
         <p className='text-xs sm:text-lg'>bemusingenieriasas@gmail.com</p>
       </div>
-      <nav>
-        <ul className='flex justify-around'>
-            <li className='boton flex-1 text-xs sm:text-lg '><Link href="/"><spam className="t-boton">Inicio</spam></Link></li>
+      <nav className='w-11/12 md:w-3/4 text-center m-auto'>
+        <ul className='flex '>
+            <li className='boton flex-1 text-xs sm:text-lg '><Link href="/">Villa Paula</Link></li>
             <li className='boton flex-1 text-xs sm:text-lg'><Link href="/">Trayectoria</Link></li>
             <li className='boton flex-1 text-xs sm:text-lg'><Link href="/">Contacto</Link></li>
         </ul>
