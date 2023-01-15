@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from '/styles/Home.module.css'
-
+import trayectoria from '../trayectoria'
 
 function Header() {
   return (
@@ -12,9 +12,9 @@ function Header() {
       </div>
       <nav className='w-11/12 md:w-3/4 text-center m-auto'>
         <ul className='flex '>
-            <li className='boton flex-1 text-xs sm:text-lg '><Link href="/">Villa Paula</Link></li>
-            <li className='boton flex-1 text-xs sm:text-lg'><Link href="/">Trayectoria</Link></li>
-            <li className='boton flex-1 text-xs sm:text-lg'><Link href="/">Contacto</Link></li>
+            <Link href="/" className='boton flex-1'><li className='1 text-xs sm:text-lg '>Villa Paula</li></Link>
+            <Link href="../trayectoria" className='boton flex-1 '><li className='text-xs sm:text-lg'>Trayectoría</li></Link>
+            <Link href="../contacto" className='boton flex-1'><li className=' text-xs sm:text-lg'>Contacto</li></Link>
         </ul>
 
       </nav>
